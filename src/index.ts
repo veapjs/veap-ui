@@ -53,7 +53,7 @@ export * from "./components/toggle-group";
 export * from "./components/tooltip";
 // hooks
 export * from "./hooks/use-mobile";
-//shared
+// shared
 export * from "./mdx";
 // providers
 export * from "./providers/index";
