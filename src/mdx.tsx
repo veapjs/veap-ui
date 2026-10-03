@@ -57,14 +57,27 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/tabs";
 
 export const mdxComponents = {
   // Base HTML overrides (standard for docs)
-  h1: (props: any) => <h1 className="mb-4 text-3xl font-bold tracking-tight" {...props} />,
-  h2: (props: any) => (
-    <h2 className="mt-10 mb-4 border-b pb-2 text-2xl font-bold tracking-tight" {...props} />
+  h1: (props: any) => (
+    <h1 className="mb-4 text-3xl font-bold tracking-tight" {...props} />
   ),
-  h3: (props: any) => <h3 className="mt-8 mb-4 text-xl font-bold tracking-tight" {...props} />,
-  p: (props: any) => <p className="leading-7 [&:not(:first-child)]:mt-6" {...props} />,
-  ul: (props: any) => <ul className="my-6 ml-6 list-disc [&>li]:mt-2" {...props} />,
-  ol: (props: any) => <ol className="my-6 ml-6 list-decimal [&>li]:mt-2" {...props} />,
+  h2: (props: any) => (
+    <h2
+      className="mt-10 mb-4 border-b pb-2 text-2xl font-bold tracking-tight"
+      {...props}
+    />
+  ),
+  h3: (props: any) => (
+    <h3 className="mt-8 mb-4 text-xl font-bold tracking-tight" {...props} />
+  ),
+  p: (props: any) => (
+    <p className="leading-7 [&:not(:first-child)]:mt-6" {...props} />
+  ),
+  ul: (props: any) => (
+    <ul className="my-6 ml-6 list-disc [&>li]:mt-2" {...props} />
+  ),
+  ol: (props: any) => (
+    <ol className="my-6 ml-6 list-decimal [&>li]:mt-2" {...props} />
+  ),
   li: (props: any) => <li className="mt-2" {...props} />,
   blockquote: (props: any) => (
     <blockquote
@@ -95,7 +108,9 @@ export const mdxComponents = {
       <table className="w-full border-collapse text-sm">{children}</table>
     </div>
   ),
-  thead: ({ children }: any) => <thead className="bg-muted border-b font-bold">{children}</thead>,
+  thead: ({ children }: any) => (
+    <thead className="bg-muted border-b font-bold">{children}</thead>
+  ),
   th: ({ children }: any) => (
     <th className="px-4 py-3 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
       {children}
@@ -106,7 +121,9 @@ export const mdxComponents = {
       {children}
     </td>
   ),
-  tr: ({ children }: any) => <tr className="even:bg-muted/50 m-0">{children}</tr>,
+  tr: ({ children }: any) => (
+    <tr className="even:bg-muted/50 m-0">{children}</tr>
+  ),
 
   // UI Components
   Button,

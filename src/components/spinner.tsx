@@ -3,7 +3,10 @@ import type * as React from "react";
 
 import { cn } from "../utils";
 
-function Spinner({ className, ...props }: Omit<React.ComponentProps<"svg">, "ref">) {
+function Spinner({
+  className,
+  ...props
+}: Omit<React.ComponentProps<"svg">, "ref">) {
   return (
     <Loader2Icon
       role="status"
