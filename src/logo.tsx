@@ -22,7 +22,8 @@ const variants = cva("", {
 });
 
 export interface LogoProps
-  extends React.HTMLAttributes<HTMLDivElement>, VariantProps<typeof variants> {
+  extends React.HTMLAttributes<HTMLDivElement>,
+    VariantProps<typeof variants> {
   asChild?: boolean;
   mode?: "full" | "short";
 }

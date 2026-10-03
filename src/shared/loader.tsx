@@ -26,8 +26,7 @@ const loaderVariants = cva("spinner", {
 });
 
 export interface LoaderProps
-  extends
-    React.HTMLAttributes<HTMLDivElement>,
+  extends React.HTMLAttributes<HTMLDivElement>,
     VariantProps<typeof loaderVariants> {
   asChild?: boolean;
 }
@@ -38,9 +37,7 @@ function Loader({
   size,
   asChild = false,
   ...props
-}: React.ComponentProps<"div"> &
-  VariantProps<typeof loaderVariants> &
-  LoaderProps) {
+}: React.ComponentProps<"div"> & VariantProps<typeof loaderVariants> & LoaderProps) {
   const Comp = asChild ? Slot : "div";
 
   return (
@@ -67,14 +64,7 @@ function Loader({
         className={cn(loaderVariants({ variant, size, className }))}
       >
         <g>
-          <circle
-            cx={12}
-            cy={12}
-            r={9.5}
-            fill="none"
-            strokeLinecap="round"
-            strokeWidth={3}
-          >
+          <circle cx={12} cy={12} r={9.5} fill="none" strokeLinecap="round" strokeWidth={3}>
             <animate
               attributeName="stroke-dasharray"
               calcMode="spline"
