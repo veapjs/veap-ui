@@ -1,5 +1,11 @@
 # @veap/ui
 
+## 0.1.2
+
+### Patch Changes
+
+- fix: fix version
+
 ## 0.1.1
 
 ### Patch Changes
