@@ -102,7 +102,7 @@ export function RootLayout({ children }: { children: React.ReactNode }) {
 | **Forms & Inputs** | `Checkbox`, `Field`, `Form`, `Input`, `InputGroup`, `InputOTP`, `Label`, `RadioGroup`, `Select`, `Slider`, `Switch`, `Textarea` |
 | **Navigation & Menus** | `Breadcrumb`, `Command`, `ContextMenu`, `DropdownMenu`, `Menubar`, `NavigationMenu`, `Pagination`, `Sidebar`, `Tabs` |
 | **Overlays & Popups** | `Dialog`, `Drawer`, `HoverCard`, `Popover`, `Sheet`, `Tooltip` |
-| **Layout & Feedback** | `PageLoader`, `AccessDenied`, `ScrollFadeEffect`, `VeapLogo` |
+| **Layout & Feedback** | `PageLoader`, `AccessDenied`, `ScrollFadeEffect`, `Logo` |
 
 ## Subpath Exports
 
