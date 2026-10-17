@@ -1,5 +1,13 @@
 # @veap/ui
 
+## 0.1.3
+
+### Patch Changes
+
+- Decouple `next/link` from root export in `@veap/ui`:
+  
+  - **Framework Independence**: Decoupled direct `next/link` dependency from the main root `@veap/ui` export, allowing core UI components to be used across generic React applications.
+
 ## 0.1.2
 
 ### Patch Changes
