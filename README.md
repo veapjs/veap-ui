@@ -1,3 +1,8 @@
+[![CI](https://github.com/veapjs/veap-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/veapjs/veap-ui/actions/workflows/ci.yml)
+[![Release](https://github.com/veapjs/veap-ui/actions/workflows/release.yml/badge.svg)](https://github.com/veapjs/veap-ui/actions/workflows/release.yml)
+[![Version](https://img.shields.io/npm/v/@veap%2Fui?style=flat-square&color=181717&logo=npm&logoColor=959da5)](https://www.npmjs.com/package/@veap/ui)
+[![Discord](https://img.shields.io/badge/Discord-join-5865F2?style=flat-square&logo=discord&logoColor=959da5)](https://discord.gg/qTkrCwpMW)
+
 # @veap/ui
 
 Accessible, composable component library and design system for [Veap](https://veap.pl) and Next.js applications.
